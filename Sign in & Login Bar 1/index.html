@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page | FrontOne</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <p>Create <span>Account</span></p>
+                <div class="social-icons">
+                    <a href="#" class="icon"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+                <h5>or use your email for registeration</h5>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <p>Sign <span>In</span></p>
+                <div class="social-icons">
+                    <a href="#" class="icon"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="#" class="icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+                <h5>or use your email password</h5>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign in</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <h5>Enter your personal details to use all of site features</h5>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <h4>Register with your personal details to use all of site features</h4>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+
+</body>
+
+</html>
